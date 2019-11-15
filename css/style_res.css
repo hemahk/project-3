@@ -1,0 +1,59 @@
+nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background: ghostwhite;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+	background-color: thistle;
+}
+
+div {
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	border-style: double;
+	border-style: inset;
+	margin-left: 25%;	
+    margin-right: 25%;
+	background: wheat;
+}
+
+h2 {
+	text-align: center;
+	font-family: ComicSansMS, ComicSans, cursive;
+	border-top-style: ridge;
+	border-color: #ebcb7a;
+	margin-left: 15%;
+    margin-right: 15%;
+}
+
+h3 {
+	font-family: TrebuchetMS, sans-serif;
+	margin-left: 15%;	
+    margin-right: 15%;
+}
+
+p, ul, h4 {
+	font-family: ArialNarrow, sans-serif;
+	margin-left: 15%;	
+    margin-right: 15%;
+}
+
+table {
+    width: 75%;
+    text-align: justify;
+	font-family: ArialNarrow, sans-serif;
+	page-break-after: auto;
+    margin-left:18%; 
+    margin-right:18%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+

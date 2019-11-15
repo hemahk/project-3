@@ -1,0 +1,66 @@
+nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background: ghostwhite;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+	background-color: mediumturquoise;
+}
+
+h1 {
+    text-align: center;
+    font-family: Bookman, URW Bookman L, serif;
+}
+
+h2 {
+    margin-left: 141px;	
+    padding-right: 141px;
+    text-align: justify;
+	font-family: OCR A Std, monospace;
+}
+
+p {
+    margin-left: 141px;	
+    padding-right: 300px;
+    text-align: right;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+ul {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    margin-left: 141px;
+    padding-right: 141px;
+}
+
+div {
+    text-align: center;
+}
+#world {
+	width: 646.5px;
+	height: 383px;
+	text-align: center;
+}
+
+table {
+    width: 1000px;
+    text-align: center;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+th {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+td {	
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#googleMap {
+	width: 100%;
+	height: 400px;
+}
+
