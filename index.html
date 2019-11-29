@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en"><head>      
         <meta charset="UTF-8">
-        <title>About Hema</title>
-        <link href="css/style.css" rel="stylesheet" type="text/css" media="all">		
-        <link href="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap" rel="stylesheet"/>
+        <title>About Hema</title>		
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+        <link href="css/normalize.css" rel="stylesheet" type="text/css" media="all">
     </head>
     <body>
         <nav id="nav-bar">
@@ -11,15 +11,16 @@
                 <li><a href="index.html"> About Hema</a></li>
                 <li><a href="resume.html"> Resume of Hema Krishnan</a></li>
                 <li><a href="scotland.html"> The Adventures of a Hema in the UK</a></li>
+                <li><a href="map.html"> Map of Scotland</a></li>
             </ul>
         </nav>       
         <hr>
-        <h1><u>Basic Info</u></h1>
-        <p><strong>Name:</strong> Hema Krishnan</p>
-        <p><strong>Birthday:</strong><em> May 23</em></p>
-        <p><strong>Birthplace:</strong><em> Newcastle-upon-Tyne, UK</em></p>
-        <h2><strong>Activites I Like to Do</strong></h2>
-        <ul>
+        <h1 class="ind_h1"><u>Basic Info</u></h1>
+        <p class="ind_p"><strong>Name:</strong> Hema Krishnan</p>
+        <p class="ind_p"><strong>Birthday:</strong><em> May 23</em></p>
+        <p class="ind_p"><strong>Birthplace:</strong><em> Newcastle-upon-Tyne, UK</em></p>
+        <h2 class="ind_h2"><strong>Activites I Like to Do</strong></h2>
+        <ul class="ind_ul">
             <li><em>Traveling</em> - I love going on adventures, big or small. Whether it's flying off to another country or getting lost here in Chicago.</li>
             <li><em>Listening to music</em> - Music is my drug and the only drug I need. I listen to 14 different languages.</li>
             <li><em>Playing video games with my baby bro</em> - I am very picky when it comes to video games &amp; I only play video games with my brother. I'm a noob in the video game universe but I see it as a way to spend quality time with my baby bro.</li>
@@ -27,14 +28,14 @@
             <li><em>Watching Anime</em> - I'm no otaku but I do love my dosage of anime. Anime will always have a special place in my heart.</li>
             <li><em>Eating out</em> - Not the best decision for the wallet but necessary for satisfying my cravings for tacos, ramen, Thai noodles, Nando's, etc. (not necessarily in that order).</li>
         </ul>
-        <h2><strong>Anime Shows I am Currently Watching</strong></h2>
-        <ul>
+        <h2 class="ind_h2"><strong>Anime Shows I am Currently Watching</strong></h2>
+        <ul class="ind_ul">
             <li>Fruits Basket - Season 1 (remake)</li>
             <li>My Hero Academia - Season 4</li>
             <li>Himouto! Umaru-chan R - Season 2 of the franchise</li>
         </ul>
-        <h2><strong>My Current Favorite Video Games</strong></h2>
-        <ul>
+        <h2 class="ind_h2"><strong>My Current Favorite Video Games</strong></h2>
+        <ul class="ind_ul">
             <li>Persona 5</li>
             <li>Rime</li>
             <li>Celeste</li>
@@ -42,15 +43,25 @@
             <li>Rayman Legends</li>
         </ul>
         
-        <div>
-            <img src="media/pics/travel_usa.jpg" alt="USA">
-        </div>
-		<div id="world">
-            <img src="media/pics/travel_world.jpg" alt="World">
-		</div>
-        <h2><strong>Places I have travelled to:</strong></h2>
+		<table id="tablepics">
+            <tr>
+              <th><div id="usa"><img src="media/pics/travel_usa.jpg" alt="USA"></div></th>
+              <th><div id="world"><img src="media/pics/travel_world.jpg" alt="World"></div></th>
+            </tr>
+		</table>
+		
+		
+		<!--<div class="row">
+			<div class="column">
+				<img src="media/pics/travel_usa.jpg" alt="USA">
+			</div>
+			<div class="column">
+				<img src="media/pics/travel_world.jpg" alt="World">
+			</div>
+		</div>-->
+        <h2 class="ind_h2"><strong>Places I have travelled to:</strong></h2>
 
-        <table>
+        <table id="tbl_travel">
             <tr>
               <th>North America</th>
               <th>Europe</th> 
@@ -117,8 +128,7 @@
 			  <td></td>
             </tr>
           </table>
-		  <p><em>*NOTE: Dubai is the only one NOT in India lol</em></p>
+		  <p class="ind_p"><em>*NOTE: Dubai is the only one NOT in India lol</em></p>
 		  
-		<div id="googleMap"></div>
     </body>
 </html>

@@ -1,61 +1,113 @@
+/*ABOUT ME page*/
+
+nav {
+	overflow: hidden;
+	display: block;
+    background: ghostwhite;
+    text-align: center;
+}
+
 nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        background: ghostwhite;
-        text-align: center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+nav li{
+  display: inline;
+}
+
+nav ul li a{
+	display: inline-block;
+	padding: 1em;
+	text-decoration: none;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ul li a:hover{
+	background-color: lightblue;
 }
 
 body {
 	background-color: mediumturquoise;
 }
 
-h1 {
+.ind_h1 {
     text-align: center;
     font-family: Bookman, URW Bookman L, serif;
 }
 
-h2 {
-    margin-left: 141px;	
+.ind_h2 {
+    /*margin-left: 141px;	
     padding-right: 141px;
-    text-align: justify;
+	margin-left: 10%;	
+    padding-right: 10%;*/
+    text-align: center;
 	font-family: OCR A Std, monospace;
 }
 
-p {
-    margin-left: 141px;	
-    padding-right: 300px;
-    text-align: right;
+.ind_p {
+    /*margin-left: 10%;	
+    padding-right: 10%;*/
+    text-align: justify;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
-ul {
+.ind_ul {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    margin-left: 141px;
-    padding-right: 141px;
+    /*margin-left: 10%;
+    padding-right: 10%;*/
 }
 
-div {
-    text-align: center;
+#tablepics {
+	text-align: center;
+	background-color: thistle;
+    margin-left: 10%;
+    padding-right: 5%;
+}
+#usa {
+	width: 115%;
+	height: 115%;
 }
 #world {
+	width: 115%;
+	height: 115%;
+}
+
+
+/*.column {
+	float: left;
+	/*width: 50%;
+	text-align: center;
+	width: 646.5px;
+	height: 383px;
+}
+
+/* Clearfix (clear floats) 
+.row::after {
+	margin-left: 141px;	
+	padding-right: 141px;
+	content: "";
+	clear: both;
+	display: table;
+}*/
+
+
+/*div {
+    text-align: center;
+}*/
+
+/*#world {
 	width: 646.5px;
 	height: 383px;
 	text-align: center;
-}
+}*/
 
-table {
+#tbl_travel {
     width: 1000px;
     text-align: center;
     margin-left:auto; 
     margin-right:auto;
-}
-
-th {
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-}
-td {	
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
@@ -63,4 +115,106 @@ td {
 	width: 100%;
 	height: 400px;
 }
+
+
+/*----------------RESUME page---------------------------------*/
+
+#card{
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	border-style: double;
+	border-style: inset;
+	margin-left: 25%;	
+    margin-right: 25%;
+	background: wheat;
+}
+
+h2 {
+	text-align: center;
+	font-family: ComicSansMS, ComicSans, cursive;
+	border-top-style: ridge;
+	border-color: #ebcb7a;
+	margin-left: 15%;
+    margin-right: 15%;
+}
+
+h3 {
+	font-family: TrebuchetMS, sans-serif;
+	margin-left: 15%;	
+    margin-right: 15%;
+}
+
+p, ul, h4 {
+	font-family: ArialNarrow, sans-serif;
+	margin-left: 15%;	
+    margin-right: 15%;
+}
+
+ul ul {
+	margin-left: 5%;
+}
+
+table {
+    width: 75%;
+    text-align: justify;
+	font-family: ArialNarrow, sans-serif;
+	page-break-after: auto;
+    margin-left:18%; 
+    margin-right:18%;
+}
+
+
+/*------------------SCOTLAND page----------------------------------*/
+
+@font-face {
+    font-family: 'walk_around_the_blockregular';
+    src: url('walk-around-the-block-webfont.woff2') format('woff2'),
+         url('walk-around-the-block-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media only screen and (min-width: 40%) { /*not working*/
+  body {
+    background-color: lightgreen;
+  }
+}
+
+#sidebar {
+    font-family: 'walk_around_the_blockregular', regular;
+	font-weight:bold;
+	font-style:normal;
+	text-align: center;
+	color: DarkBlue;
+	
+    position: fixed;
+    top: 40%;
+    height: 100%;
+    width: 100%;
+}
+
+#start, #glasgowuni, #stirling, #belfast, #tea {
+	width: 288px;
+	height: 512px;
+}
+
+#lochlomond {
+	width: 1024px;
+	height: 239px;
+}
+
+#doune, #glencoe, #lochness, #alnwich, #edinburgh, #end {
+	width: 512px;
+	height: 288px;
+}
+
+#wallace {
+	width: 384px;
+	height: 512px;
+}
+
+#dots {
+	text-align: center;
+}
+
 
