@@ -163,19 +163,21 @@ table {
 
 @font-face {
     font-family: 'walk_around_the_blockregular';
-    src: url('walk-around-the-block-webfont.woff2') format('woff2'),
-         url('walk-around-the-block-webfont.woff') format('woff');
+    src: url(font/'walk-around-the-block-webfont.woff2') format('woff2'),
+         url(font/'walk-around-the-block-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @media only screen and (min-width: 300px) {
-#scot_bod {
+.scot_bod {
     background-color: #5bd75b;
+	margin: 0;
+	padding: 0;
   }
 }
 
-#sidebar {
+/*#sidebar {
     font-family: 'walk_around_the_blockregular', regular;
 	font-weight:bold;
 	font-style:normal;
@@ -186,26 +188,72 @@ table {
     top: 40%;
     height: 100%;
     width: 100%;
+}*/
+
+
+
+/*.mySlides {
+	display: none;
+}*/
+
+/*.slideshow-container {
+	width: 75%;
+	top: 40%;
+	height: 75%;
+	margin: auto;
+	border: 10px;
+	border-color: red;
+	/*overflow: hidden;
+}*/
+
+.myslides {
+	display: flex;
+	background-image: url(media/pics/scot_flag.png);
+	/*background-color: #89CFF0; baby blue*/
+	margin: 0 auto;
+	background-color: inherit;
+	border: 0;
+}
+
+.myslides img {
+	margin: 0 auto;
+}
+
+.myslides #tezt {
+	margin: 0 auto;
+}
+
+
+.text {
+	vertical-align: text-bottom;
+	text-align: center;
+    font-family: 'walk_around_the_blockregular', regular;
+	font-weight:bold;
+	font-style:normal;
+	color: DarkBlue;
+	
+	background-color: #89CFF0; /*baby blue*/
 }
 
 #start, #glasgowuni, #stirling, #belfast, #tea {
-	width: 288px;
-	height: 512px;
+	width: 360px; /*288,512*/
+	height: 640px;
+	text-align: center;
 }
 
 #lochlomond {
-	width: 1024px;
+	width: 1024px;/*1024,239*/
 	height: 239px;
 }
 
 #doune, #glencoe, #lochness, #alnwich, #edinburgh, #end {
-	width: 512px;
-	height: 288px;
+	width: 640px;/*512,288*/
+	height: 360px;
 }
 
 #wallace {
-	width: 384px;
-	height: 512px;
+	width: 480px;/*384,512*/
+	height: 640px;
 }
 
 #dots {
@@ -215,8 +263,31 @@ table {
 
 /*-----------------------------------------MAP page-------------------------------*/
 
-#googleMap {
-	width: 100%;
-	height: 400px;
+
+#map_bod {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	/*@media only screen and (min-width: 300px) {
+    background-color: #5bd75b;*/
+  
 }
+
+#map {
+	/*background: wheat;*/
+	height: 90%;
+	width: 100%;
+	position: absolute;
+	/*position: static;
+	position: fixed;*/
+}
+
+/*#map_h1 {
+	text-align: center;
+	font-family: 'walk_around_the_blockregular', regular;
+	font-weight:bold;
+	font-style:normal;
+	color: DarkBlue;
+}*/
+
 
