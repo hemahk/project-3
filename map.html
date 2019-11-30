@@ -2,18 +2,30 @@
 <html lang="en"><head>      
         <meta charset="UTF-8">
         <title>Map of Scotland</title>
-        <link href="css/style.css" rel="stylesheet" type="text/css" media="all">		
-        <link href="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap" rel="stylesheet"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+        <link href="css/normalize.css" rel="stylesheet" type="text/css" media="all">
+        <!--<link href="map_style.css" rel="stylesheet" type="text/css" media="all">-->
+		<script src="js/initMap.js" type="text/javascript"></script>
+		<!--API key: AIzaSyByjejkMDLmCv-WWv70l4PLLy3MXJJ4UjA https://maps.googleapis.com/maps/api/js?key=AIzaSyByjejkMDLmCv-WWv70l4PLLy3MXJJ4UjA&callback=initMap-->
+		<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByjejkMDLmCv-WWv70l4PLLy3MXJJ4UjA&callback=initMap">
+		</script>
     </head>
-    <body id="scot_bod">
+    <body class="map_bod">
         <nav id="nav-bar">
             <ul>
                 <li><a href="index.html"> About Hema</a></li>
                 <li><a href="resume.html"> Resume of Hema Krishnan</a></li>
-                <li><a href="scotland.html"> The Adventures of a Hema in the UK</a></li>
+                <li><a href="scotland.html"> The Adventures of a Hema in the UK</a></li>		
+                <li><a href="scotland_new.html"> Hema's Adventures in the UK - new</a></li>
                 <li><a href="map.html"> Map of Scotland</a></li>				
             </ul>
-        </nav>       
+        </nav>
         <hr>
+		
+		<!--<h1 id="map_h1">This is Scotland!</h1>-->
+		
+		<div id="map"></div>
+		
 	</body>
 	
