@@ -161,13 +161,13 @@ table {
 
 /*------------------SCOTLAND page----------------------------------*/
 
-@font-face {
+/*@font-face {
     	font-family: 'walk_around_the_blockregular';
     	src: url(font/'walk-around-the-block-webfont.woff2') format('woff2'),
 	     url(font/'walk-around-the-block-webfont.woff') format('woff');
     	font-weight: normal;
     	font-style: normal;
-}
+}*/
 
 @media only screen and (min-width: 300px) {
 .scot_bod {
